@@ -31,15 +31,17 @@ Hasil prediksi dibandingkan dengan klasemen akhir MotoGP 2025 yang sudah selesai
 
 | Posisi | Prediksi | Aktual |
 |:--:|:--|:--|
-| 🥇 **1** | F. Bagnaia (Ducati Lenovo Team) | **Marc Márquez** (Ducati Lenovo Team) |
-| 🥈 **2** | J. Martin (Aprilia Racing) | **Alex Márquez** (Gresini Racing) |
-| 🥉 **3** | M. Marquez (Ducati Lenovo Team) | **Marco Bezzecchi** (Aprilia Racing) |
+| 🥇 **1** | F. Bagnaia (Ducati Lenovo Team)<br>**370** poin | **Marc Márquez** (Ducati Lenovo Team)<br>**545** poin |
+| 🥈 **2** | J. Martin (Aprilia Racing)<br>**337** poin | **Alex Márquez** (Gresini Racing)<br>**467** poin |
+| 🥉 **3** | M. Marquez (Ducati Lenovo Team)<br>**270** poin | **Marco Bezzecchi** (Aprilia Racing)<br>**353** poin |
 
 </div>
 
 **Prediksi.** Model di notebook hanya menghasilkan **satu** pembalap, yaitu juara: **F. Bagnaia** dengan 370 poin Race pada 2024. Kolom prediksi posisi 2 dan 3 adalah pembalap di susunan tim 2025 dengan poin Race 2024 tertinggi berikutnya, yaitu data yang sama dengan grafik perbandingan di notebook (J. Martin 337, M. Marquez 270).
 
 **Aktual.** Marc Márquez juara dunia 2025 bersama Ducati Lenovo Team, disusul saudaranya Alex Márquez di posisi kedua dan Marco Bezzecchi bersama Aprilia di posisi ketiga. Sumber: [klasemen akhir Valencia di Crash.net](https://www.crash.net/motogp/results/1086801/1/valencia-final-2025-motogp-world-championship-standings) dan [Corsedimoto](https://www.corsedimoto.com/en/motogp/2025-motogp-world-championship-final-riders-standings-after-valencia).
+
+**Arti angka poin.** Poin di kolom prediksi adalah total poin **Race 2024** dari dataset (data masukan model, tanpa Sprint). Poin di kolom aktual adalah total poin **klasemen akhir 2025** (Race dan Sprint). Keduanya berbeda musim dan cakupan, jadi dipakai untuk melihat urutan, bukan untuk membandingkan selisih angka.
 
 **Kesimpulan.** Juara yang diprediksi tidak sama dengan juara sebenarnya. Dari enam nama di tabel, hanya **Marc Márquez** muncul di kedua kolom: diprediksi urutan 3, hasil aktualnya juara.
 
